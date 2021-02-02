@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title></title>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" type="text/css" href="css/estilos.css" />
+</head>
+
+<body>
+  <form action="/result" method="POST">
+    <label for="nombre">Nombre</label>
+    <input name="nombre" type="text" id="nombre" placeholder="Escribe tu nombre" />
+
+
+    <label for="dlocation">Dojo Location:</label>
+    <select name="location" class=form-select aria-label="Default-select-example">
+      <option value="Montain View">Montain View</option>
+      <option value=" Otro1">Otro1 </option>
+      <option value="Otro2">Otro2</option>
+    </select>
+
+
+    <label>Favorite Language:</label>
+    <select name="lenguaje">
+      <option value="Javascript">Javascript</option>
+      <option value="CSS">CSS </option>
+      <option value="HTML">HTML</option>
+    </select>
+
+
+
+    <label for="mensaje">Comentario opcional:</label>
+
+    <textarea name="comentario" id="mensaje" placeholder="Escribe tu nombre"></textarea>
+
+
+    <input type="submit" value="Enviar" />
+  </form>
+</body>
+
+</html>
